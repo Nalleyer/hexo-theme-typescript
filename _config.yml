@@ -1,25 +1,29 @@
 # Meta
-description: A minimal hexo theme.
-keywords: hexo,theme,minimal,otakism
-site_desc: your catch phrase
+description:
+keywords:
+site_desc: are you OK ?
 
 # Navigation
 navigation:
-- name: Home
-  slug: home
-  url: /
+#- name: Home
+  #slug: home
+  #url: /
 - name: About
   slug: about
   url: /about
+# - name: tags
+  # slug: tags
+  # url: /tags
 - name: Archives
   slug: archives
   url: /archives
 
 # Search
-search: 
+search:
   enable: true
-  service: google # google/hexo/algolia/azure/baidu
-  # google 
+  # service: google # google/hexo/algolia/azure/baidu
+  service: baidu
+  # google
   google_api_key:
   google_engine_id:
   # algolia
@@ -30,11 +34,13 @@ search:
   azure_service_name:
   azure_index_name:
   azure_query_key:
+  # baidu
+  baidu_api_id:
 
 # Miscellaneous
-google_analytics:
-favicon: /favicon.png
-author_url: https://example.com
+# google_analytics:
+# favicon: /favicon.png
+# author_url: http://rakugaki.me
 
 # Less
 less:
@@ -42,27 +48,29 @@ less:
 
 # use url, not username
 social:
-- slug: email
-  url: #mailto:me@example.com
+# - slug: email
+#   url: nalleyer@gmail.com
 - slug: github
-  url: #https://github.com/<id>
-- slug: twitter
-  url: #https://twitter.com/<id>
-- slug: rss
-	url: /atom.xml
-- slug: facebook
-  url: #https://www.facebook.com/<id>
-- slug: linkedin
-  url: #https://www.linkedin.com/in/<id>
-- slug: sina-weibo
-  url: #http://weibo.com/<id>
-- slug: tumblr
-  url: #http://<id>.tumblr.com
-- slug: dribbble
-  url: #https://dribbble.com/<id>
-- slug: pinterest
-  url: #https://www.pinterest.com/<id>
-- slug: instagram
-  url: #https://instagram.com/<id>
-- slug: behance
-  url: #https://www.behance.net/<id>
+  url: https://github.com/Nalleyer
+# - slug: twitter
+#   url: https://twitter.com/otakism
+# - slug: rss
+	# url: /atom.xml
+- slug: google
+  url: https://plus.google.com/+NalleyerInoru
+# - slug: facebook
+  # url: # https://www.facebook.com/zanchoret
+# - slug: linkedin
+  # url: # https://www.linkedin.com/in/buzun
+# - slug: sina-weibo
+  # url: http://weibo.com/otakism/
+# - slug: tumblr
+  # url: # http://artchen.tumblr.com
+# - slug: dribbble
+  # url: # https://dribbble.com/artchen
+# - slug: pinterest
+  # url: # https://www.pinterest.com/otakism/
+# - slug: instagram
+  # url: # https://instagram.com/otakism/
+# - slug: behance
+  # url: # https://www.behance.net/artchen

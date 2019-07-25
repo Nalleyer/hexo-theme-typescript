@@ -6,7 +6,7 @@
 	border-top: 2px solid black;
 	transition: all 0.24s ease;
 	z-index: 3;
-	
+
 	@media (max-width: @on-phone)  {
 		padding-bottom: 20px;
 	}
@@ -20,19 +20,20 @@
 		padding: 0px 20px;
 		z-index: 3;
 	}
-	
+
 	#logo {
 		position: absolute;
 		display: block;
 		top: 0;
 		left: 50%;
-		margin-left: -80px;
-		width: 160px;
-		height: 82px;
-		background: #000;
+		margin-left: -160px;
+		width: 320px;
+		height: 100px;
+		// background: #000;
+		background: #112533;
 		padding: 10px 0px 12px 0px;
 		transition: all 0.24s;
-		
+
 		@media (max-width: @on-phone)  {
 			width: 140px;
 			height: 70px;
@@ -42,11 +43,11 @@
 
 		img {
 			display: block;
-			width: 70px;
+			width: 280px;
 			height: auto;
-			margin: 0px auto;
+			margin: -3px auto;
 			transition: all 0.24s;
-			
+
 			@media (max-width: @on-phone)  {
 				width: 50px;
 			}
@@ -57,7 +58,7 @@
 			color: white;
 			font-size: 13px;
 			transition: all 0.24s;
-			
+
 			@media (max-width: @on-phone)  {
 				font-size: 12px;
 			}
@@ -72,7 +73,7 @@
 		font-size: 30px;
 		margin-top: 20px;
 		transition: all 0.24s ease;
-		
+
 		&.active {
 			transform: rotate(90deg);
 		}
@@ -93,7 +94,7 @@
 	transition: all 0.24s ease;
 	visibility: hidden;
   z-index: 2;
-  
+
   nav {
 	  .nav {
 		  position: relative;
@@ -102,7 +103,7 @@
 		  font-size: 0.8125em;
 		  padding: 2px 20px;
 		  border-left: 3px solid transparent;
-		  
+
 		  &:hover {
 			  background: fade(lighten(#e1e2e3, 3%), 60%);
 			  border-color: @accent-color;
