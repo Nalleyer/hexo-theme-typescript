@@ -73,6 +73,18 @@
 	    font-weight: normal;
     }
   }
+  h2, h3, h4 {
+    &::before {
+	    content: "-";
+	    left: -15px;
+	    color: @material-light-green;
+    }
+  }
+  h5, h6 {
+    &::before {
+      content: "";
+    }
+  }
   figure {
     figcaption {
       span {
