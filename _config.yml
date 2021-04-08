@@ -56,8 +56,8 @@ social:
 #   url: https://twitter.com/otakism
 # - slug: rss
 # url: /atom.xml
-- slug: google
-  url: https://plus.google.com/+NalleyerInoru
+# - slug: google
+#   url: https://plus.google.com/+NalleyerInoru
 - slug: book
   url: https://blog.remi.moe/rtr4_zh
 # - slug: facebook
